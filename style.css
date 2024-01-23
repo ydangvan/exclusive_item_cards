@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    
+    /* fonts */
+    --font-poppins: Poppins;
+    
+    /* font sizes */
+    --font-size-xs: 12px;
+    
+    /* Colors */
+    --color-mediumseagreen: #0dd39c;
+    
+    /* Border radiuses */
+    --br-7xs: 6px;
+    
+}
+
+
+.divmr-5 {
+    position: absolute;
+    height: calc(100% - 81px);
+    top: 15.49px;
+    bottom: 65.51px;
+    left: 15px;
+    width: 80px;
+    background-image: url('div.mr--5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.daily-monday-offer {
+    position: absolute;
+    top: 14.76px;
+    left: 104.5px;
+    line-height: 16px;
+    font-weight: 500;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 164.13px;
+    height: 29.04px;
+}
+
+.div {
+    position: absolute;
+    top: 1.97px;
+    left: 17px;
+    line-height: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 22.71px;
+    height: 10.07px;
+}
+.icon-parent {
+    position: absolute;
+    top: 50px;
+    left: 104px;
+    width: 39.71px;
+    height: 12.03px;
+    color: #ffa800;
+}
+.left {
+    position: absolute;
+    top: 50px;
+    left: 156px;
+    font-size: 10px;
+    line-height: 15px;
+    color: #a6acdc;
+    display: flex;
+    align-items: center;
+    width: 41.49px;
+    height: 15px;
+}
+.buy {
+    position: absolute;
+    top: 11px;
+    left: calc(50% - 11.57px);
+    line-height: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23.14px;
+    height: 17px;
+}
+
+.button {
+    position: absolute;
+    top: 79px;
+    left: calc(50% - 1px);
+    transform: translateX(-50%);
+    border-radius: var(--br-7xs);
+    background-color: #00baff;
+    
+    width: 94.3%;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+.divshop-offer-card-mobile {
+    position: relative;
+    min-width: 100%; /* Minimum width of the box */
+    max-width: 100%; /* Maximum width of the box */
+    border-radius: var(--br-7xs);
+    background-color: #272b4a;
+    height: 129px;
+    height: auto
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: #e2e4f5;
+    font-family: var(--font-poppins);
+      
+}
+/* Adjustments for smaller screens */
+@media (max-width: 350px) {
+    .divshop-offer-card-mobile {
+        padding: 5px;
+        font-size: smaller; /* Adjust font size for smaller screens */
+    }
+
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 727px) {
+    .divshop-offer-card-mobile {
+        max-width: 727px; 
+    }  
+}
+
+.group-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 6%;
+    bottom: 0%;
+    border-radius: 4px;
+    border: 1px solid var(--color-mediumseagreen);
+    box-sizing: border-box;
+}
+.premium {
+    position: absolute;
+    right: 10px; /* 10px away from the right edge of the parent */
+    height: 70.83%;
+    top: 14.58%;
+    line-height: 28.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-parent {
+    position: absolute;
+    height: 13.95%;
+    width: 13.32%;
+    top: 12%;
+    right: 2.86%;
+    bottom: 74.04%;
+    left: 83.82%;
+    text-align: center;
+    font-size: 8px;
+    color: var(--color-mediumseagreen);
+}
+
+
+.divshop-offer-card-mobile .group-child {
+    width: 48px; /* Fixed width for an inner element */
+    /* Other styles */
+}
+
